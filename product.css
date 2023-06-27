@@ -1,0 +1,292 @@
+body {
+    padding: 5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigate {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    height: 3rem;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icon-container {
+    width: 1.5rem;
+    direction: flex;
+    margin-right: .5rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+
+}
+
+.link {
+    display: inline-block;
+    width: 5rem;
+}
+
+.sep {
+    display: inline-block;
+    width: 3rem;
+    font-size: 1.4rem;
+    color: gray;
+
+}
+
+@font-face {
+    font-family: AllertaStencil;
+    src: url(./Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+
+.logo {
+    font-family: "AllertaStencil";
+    font-size: 35px;
+
+}
+
+.logo .first-letter {
+    color: #A18A68;
+}
+
+/*product info*/
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.gallery {
+    width: 10%;
+
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.product-img {
+    width: 43%;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+/*product details */
+
+.info-container {
+    width: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+
+}
+
+.info-container h3 {
+    font-weight: lighter;
+}
+
+.price {
+    color: #A18A68;
+    margin-bottom: 3rem;
+}
+
+.star-rating {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.star-rating img {
+    margin-right: 4px;
+}
+
+.star-rating .reviews {
+    color: #707077;
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: -4px;
+}
+
+.product-description {
+    color: #707077;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.cart-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 3rem;
+
+}
+
+.quantity-btns {
+    background-color: #efefef;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.quantity-btns button {
+    border: none;
+    background-color: #efefef;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+.add-to-cart-btns {
+    width: 70%;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* social media and other details */
+
+.share-menu {
+    padding-bottom: 2rem;
+
+}
+
+.share-menu img {
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+
+.share-menu .sep {
+    color: gray;
+    display: inline-block;
+    margin-right: 1.2rem;
+    text-align: center;
+}
+
+.tag {
+    line-height: 1.5rem;
+}
+
+.value {
+    color: #707077;
+}
+
+/*Product menu*/
+
+.product-menu,
+.reviews-container {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-menu {
+    border-bottom: 1px solid lightgray;
+}
+
+.product-menu .menu-item {
+    height: 3rem;
+    color: #707077;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.product-menu .menu-item.active {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.reviews-list,
+.reviews-form {
+    width: 48%;
+
+}
+
+.reviews-container {
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.reviews-list h4 {
+    font-weight: normal;
+}
+
+.review-title .date,
+.review-body {
+    font-size: 0.9rem;
+    color: darkgray;
+}
+
+.review-body {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*review form  */
+
+.review-form h3 {
+    font-weight: normal;
+
+}
+
+.review-info,
+.label,
+.save-info {
+    font-size: 0.8rem;
+    color: #707077;
+}
+
+.review-input {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.label input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+}
+
+button.submit {
+    margin-top: 2rem;
+    height: 2.4rem;
+    background-color: black;
+    color: wheat;
+    width: 6rem;
+    border-radius: 4px;
+}
